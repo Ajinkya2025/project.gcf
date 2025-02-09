@@ -1,0 +1,130 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url('back.jpg'); 
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #333;
+    color: rgb(122, 222, 41);
+    padding: 1rem 2rem;
+  }
+  
+  nav h1 {
+    display: inline;
+    margin-right: 2rem;
+    font-size: 1.8rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: inline;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 5rem 2rem;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #0def27;
+    color:whitesmoke;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  
+  footer {
+    background-color: #b1f4f1;
+    color:black;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  button{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #ef760d;
+    color:whitesmoke;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 1rem;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+    margin: auto;
+    background-color: aliceblue;
+    text-align: center;
+    font-family: arial;
+  }
+  .price {
+    color: black;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #14e94d;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  h2{
+    background:url('th\ \(1\).jpg');
+    color: whitesmoke;
+  }
+  .card{
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  .face {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+    margin: auto;
+    background-color: aliceblue;
+    text-align: center;
+    font-family: arial;
+  }
+  .face button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #14e94d;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  button:hover {
+    background-color: rgb(3, 250, 57);
+    font-size: 18px;
+  }

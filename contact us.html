@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us Form</title>
+  <link rel="stylesheet" href="Fast.css">
+  <body>
+    <header>
+        <nav>
+          <h1>Online Store for Electronics</h1>
+          <ul>
+            <li><a href="Global Certification.html">Home</a></li>
+            <li><a href="product details.html">Products</a></li>
+            <li><a href="Details.html">Store Deatils</a></li>
+            <li><a href="contact us.html">Booking</a></li>
+          </ul>
+        </nav>
+      </header>
+
+  </body>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #24cbec;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .contact-form {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px;
+    }
+    .contact-form h2 {
+      margin-bottom: 20px;
+      font-size: 24px;
+      color:white;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 90%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #15e60e;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    .contact-form textarea {
+      resize: none;
+      height: 100px;
+    }
+    .contact-form button {
+      background: #e61405;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .contact-form button:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+   
+<div class="contact-form">
+  <h2>Contact Us</h2>
+  <form action="#" method="POST">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name" required>
+    
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Your email" required>
+    
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+    
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+    <button type="submit">Send Message <a href="https://www.youtube.com/"class="btn"></a></button>
+  </form>
+</div>
+
+</body>
+</html>
